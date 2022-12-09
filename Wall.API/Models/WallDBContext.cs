@@ -12,7 +12,7 @@ namespace Wall.API.Models
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.
-                UseSqlServer(@"Server=34.65.111.208;Database=walldb;Uid=hazardemircan;Password=walldb0296");
+                UseSqlServer(@"***");
         }
     }
 }
